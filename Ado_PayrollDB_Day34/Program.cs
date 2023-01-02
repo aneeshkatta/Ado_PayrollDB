@@ -11,7 +11,10 @@ namespace Ado_PayrollDB_Day34
     {
         static void Main()
         {
-            EmployeeRepo.CheckConnection();
+            EmployeeRepo objRepo = new EmployeeRepo();
+            objRepo.CheckConnection();
+            objRepo.GetAllEmployee();
+
         }
     }
 }
