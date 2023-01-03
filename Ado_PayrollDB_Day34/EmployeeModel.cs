@@ -17,6 +17,7 @@ namespace Ado_PayrollDB_Day34
         public double MobileNo { get; set; }
         public string Department { get; set; }
         public double Deductions { get; set; }
+        public double Basic_pay { get; set; }
         public double Taxable_Pay { get; set; }
         public double Income_Tax { get; set; }
         public double Net_Pay { get; set; }
